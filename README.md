@@ -7,4 +7,4 @@
 
 
 ## Integrantes
-**Mauricio Jiménez:** Ingeniero Electricista y actual tripulante de Misión tic 2022. me interesa todo lo concerniente a la programación y la tecnologia.
+**Mauricio Jiménez: ** Ingeniero Electricista y actual tripulante de Misión tic 2022. me interesa todo lo concerniente a la programación y la tecnologia.
