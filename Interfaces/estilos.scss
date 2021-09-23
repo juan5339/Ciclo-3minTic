@@ -6,4 +6,22 @@ $themeColor4: #E4F2FB;
 $fontPage: helvetica;
 
 
+body {
+    background-color: $themeColor4;
+    font: $fontPage;
+    font-size: medium;
+}
+nav {
+    color: $themeColor1;
+    font: $fontPage;
+    font-size: larger;
+    font-style: $themeColor4;
+    size: 3cm;
+}
+button{
+    color: $themeColor2;
+    font: $fontPage;
+    font-size: large;
+    font-style: $themeColor4;
+}
 

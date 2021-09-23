@@ -1,0 +1,21 @@
+body {
+  background-color: #E4F2FB;
+  font: helvetica;
+  font-size: medium;
+}
+
+nav {
+  color: #1A4A77;
+  font: helvetica;
+  font-size: larger;
+  font-style: #E4F2FB;
+  size: 3cm;
+}
+
+button {
+  color: #1285B4;
+  font: helvetica;
+  font-size: large;
+  font-style: #E4F2FB;
+}
+/*# sourceMappingURL=estilos.css.map */
