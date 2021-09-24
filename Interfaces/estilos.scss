@@ -3,25 +3,60 @@ $themeColor2: #1285B4;
 $themeColor3: #69BED7;
 $themeColor4: #E4F2FB;
 
-$fontPage: helvetica;
+$headerHeigh: 3cm;
 
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font: 100% Helvetica, sans-serif;
+}
 
 body {
     background-color: $themeColor4;
-    font: $fontPage;
     font-size: medium;
+    color: $themeColor1;
+    margin: 0px;
+}
+header{
+    background-color: $themeColor1;
+    color: $themeColor4;
+    height: $headerHeigh;
+    button{
+        background-color: $themeColor1;
+        color: $themeColor4;
+        width: 100px;
+        height: $headerHeigh;
+        border-color: $themeColor1;
+        
+    }
+    img{
+        width: auto;
+        height: $headerHeigh;
+    }
 }
 nav {
-    color: $themeColor1;
-    font: $fontPage;
+    background-color: $themeColor2;
     font-size: larger;
-    font-style: $themeColor4;
-    size: 3cm;
+    color: $themeColor4;
+    width: 20%;
 }
 button{
-    color: $themeColor2;
-    font: $fontPage;
+    background-color: $themeColor2;
     font-size: large;
-    font-style: $themeColor4;
+    color: $themeColor4;
+    border-radius: 5px;
+    border-color: $themeColor2;
 }
+footer{
+    
+    background-color: $themeColor1;
+    color: $themeColor4;
+    p{
+        font-size: medium;
+    }
+   
+}
+
 

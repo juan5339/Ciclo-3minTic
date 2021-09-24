@@ -1,21 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font: 100% Helvetica, sans-serif;
+}
+
 body {
   background-color: #E4F2FB;
-  font: helvetica;
   font-size: medium;
+  color: #1A4A77;
+  margin: 0px;
+}
+
+header {
+  background-color: #1A4A77;
+  color: #E4F2FB;
+  height: 3cm;
+}
+
+header button {
+  background-color: #1A4A77;
+  color: #E4F2FB;
+  width: 100px;
+  height: 3cm;
+  border-color: #1A4A77;
+}
+
+header img {
+  width: auto;
+  height: 3cm;
 }
 
 nav {
-  color: #1A4A77;
-  font: helvetica;
+  background-color: #1285B4;
   font-size: larger;
-  font-style: #E4F2FB;
-  size: 3cm;
+  color: #E4F2FB;
+  width: 20%;
 }
 
 button {
-  color: #1285B4;
-  font: helvetica;
+  background-color: #1285B4;
   font-size: large;
-  font-style: #E4F2FB;
+  color: #E4F2FB;
+  border-radius: 5px;
+  border-color: #1285B4;
+}
+
+footer {
+  background-color: #1A4A77;
+  color: #E4F2FB;
+}
+
+footer p {
+  font-size: medium;
 }
 /*# sourceMappingURL=estilos.css.map */
