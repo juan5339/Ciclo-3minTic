@@ -17,6 +17,17 @@ header {
   background-color: #1A4A77;
   color: #E4F2FB;
   height: 3cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header div {
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 400px;
+  margin-top: 50px;
+  font-size: 30px;
 }
 
 header button {
@@ -25,6 +36,13 @@ header button {
   width: 100px;
   height: 3cm;
   border-color: #1A4A77;
+  display: inline-block;
+  border: none;
+  margin-left: 400px;
+}
+
+header button p:hover {
+  color: #69BED7;
 }
 
 header img {
@@ -35,6 +53,9 @@ header img {
 nav {
   background-color: #1285B4;
   font-size: larger;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #E4F2FB;
   width: 20%;
 }
@@ -50,6 +71,14 @@ button {
 footer {
   background-color: #1A4A77;
   color: #E4F2FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 900px;
+}
+
+footer .miembros {
+  display: inline;
 }
 
 footer p {
