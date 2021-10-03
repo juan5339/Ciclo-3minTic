@@ -27,6 +27,19 @@ body {
         margin-right: 40%;
         margin-left: auto;
         width: 30%;
+        .table {
+            th {
+                color: #1A4A77;
+                font-weight: bolder;
+                border: none;
+                padding: 15px;
+            }
+            td {
+                color: #1285B4;
+                padding: 15px;
+                border: none;
+            }
+        }
     }
     .botones {
         margin-left: 150%;
@@ -88,9 +101,6 @@ header {
     h1 {
         margin-left: 10%;
     }
-    h1 {
-        margin-left: 10%;
-    }
     button {
         background-color: $themeColor1;
         color: $themeColor4;
@@ -99,7 +109,6 @@ header {
         border-color: $themeColor1;
         display: inline-block;
         border: none;
-        margin-left: 400px;
         margin-left: 600px;
         p {
             &:hover {
@@ -113,14 +122,6 @@ header {
     }
 }
 
-nav {
-    background-color: $themeColor2;
-    font-size: larger;
-    display: flex;
-    color: $themeColor4;
-    width: 20%;
-}
-
 button {
     background-color: $themeColor2;
     font-size: large;
@@ -130,42 +131,33 @@ button {
 }
 
 footer {
-    background-color: $themeColor1;
-    color: $themeColor4;
-    display: flex;
-    margin-bottom: 900px;
-    .miembros {
-        display: inline;
-    }
-    p {
-        font-size: medium;
-        position: relative;
-        div {
-            display: flex;
-            background-color: $themeColor1;
-            color: $themeColor4;
-            display: flex;
-            //width: 100%;
-            padding: 30px;
-            h1 {
-                font-weight: bolder;
-                font-size: 22px;
-            }
-            p {
-                font-size: 14px;
-                margin: 5px 10px;
-            }
+    position: relative;
+    div {
+        display: flex;
+        background-color: $themeColor1;
+        color: $themeColor4;
+        display: flex;
+        //width: 100%;
+        padding: 30px;
+        h1 {
+            font-weight: bolder;
+            font-size: 22px;
+        }
+        p {
+            font-size: 14px;
+            margin: 5px 10px;
         }
     }
-    @media screen and (max-width: 1100px) {
-        footer {
+}
+
+@media screen and (max-width: 1100px) {
+    footer {
+        flex-wrap: wrap;
+        div {
             flex-wrap: wrap;
-            div {
-                flex-wrap: wrap;
-            }
-            p {
-                margin-top: 20px;
-            }
+        }
+        p {
+            margin-top: 20px;
         }
     }
 }

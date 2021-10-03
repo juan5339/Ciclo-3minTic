@@ -30,6 +30,19 @@ body .tablas {
   width: 30%;
 }
 
+body .tablas .table th {
+  color: #1A4A77;
+  font-weight: bolder;
+  border: none;
+  padding: 15px;
+}
+
+body .tablas .table td {
+  color: #1285B4;
+  padding: 15px;
+  border: none;
+}
+
 body .botones {
   margin-left: 150%;
   display: -webkit-box;
