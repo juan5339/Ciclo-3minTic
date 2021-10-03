@@ -11,6 +11,15 @@ $headerHeigh: 3cm;
     font: 100% Helvetica, sans-serif;
 }
 
+.contenedor-login {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 body {
     background-color: $themeColor4;
     font-size: medium;
