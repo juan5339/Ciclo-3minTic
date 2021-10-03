@@ -16,11 +16,6 @@ body {
     font-size: medium;
     color: $themeColor1;
     margin: 0px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
     .principal {
         display: flex;
         img {
@@ -76,10 +71,6 @@ body {
             }
         }
     }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 header {
@@ -94,18 +85,12 @@ header {
         margin-top: 50px;
         font-size: 30px;
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
     h1 {
         margin-left: 10%;
     }
->>>>>>> Stashed changes
-=======
     h1 {
         margin-left: 10%;
     }
->>>>>>> Stashed changes
     button {
         background-color: $themeColor1;
         color: $themeColor4;
@@ -114,15 +99,8 @@ header {
         border-color: $themeColor1;
         display: inline-block;
         border: none;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         margin-left: 400px;
-=======
         margin-left: 600px;
->>>>>>> Stashed changes
-=======
-        margin-left: 600px;
->>>>>>> Stashed changes
         p {
             &:hover {
                 color: $themeColor3;
@@ -135,8 +113,6 @@ header {
     }
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 nav {
     background-color: $themeColor2;
     font-size: larger;
@@ -145,10 +121,6 @@ nav {
     width: 20%;
 }
 
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 button {
     background-color: $themeColor2;
     font-size: large;
@@ -158,8 +130,6 @@ button {
 }
 
 footer {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     background-color: $themeColor1;
     color: $themeColor4;
     display: flex;
@@ -169,40 +139,33 @@ footer {
     }
     p {
         font-size: medium;
-=======
-=======
->>>>>>> Stashed changes
-    position: relative;
-    div {
-        display: flex;
-        background-color: $themeColor1;
-        color: $themeColor4;
-        display: flex;
-        //width: 100%;
-        padding: 30px;
-        h1 {
-            font-weight: bolder;
-            font-size: 22px;
-        }
-        p {
-            font-size: 14px;
-            margin: 5px 10px;
+        position: relative;
+        div {
+            display: flex;
+            background-color: $themeColor1;
+            color: $themeColor4;
+            display: flex;
+            //width: 100%;
+            padding: 30px;
+            h1 {
+                font-weight: bolder;
+                font-size: 22px;
+            }
+            p {
+                font-size: 14px;
+                margin: 5px 10px;
+            }
         }
     }
-}
-
-@media screen and (max-width: 1100px) {
-    footer {
-        flex-wrap: wrap;
-        div {
+    @media screen and (max-width: 1100px) {
+        footer {
             flex-wrap: wrap;
+            div {
+                flex-wrap: wrap;
+            }
+            p {
+                margin-top: 20px;
+            }
         }
-        p {
-            margin-top: 20px;
-        }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
 }
