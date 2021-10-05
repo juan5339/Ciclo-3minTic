@@ -22,12 +22,34 @@
                 display: block;
                 margin: auto;
             }
-        }
-        .Registro-venta {
-            align-items: center;
-            h2 {
-                color: #1a4a77;
-                align-items: center;
+            .Registro-venta {
+                flex: 100%;
+                h2 {
+                    text-align: center;
+                }
+                .datos-cliente {
+                    flex: 900px;
+                    text-align: left;
+                    margin-left: 25px;
+                    div {
+                        display: inline;
+                        padding: 20px;
+                        margin-right: 30px;
+                    }
+                    padding: 20px;
+                }
+                
+                .datos-venta {
+                    text-align: left;
+                    margin-left: 25px;
+                    div {
+                        display: inline;
+                        flex-wrap: wrap;
+                        padding: 15px;
+                        margin-right: 20px;
+                    }
+                    padding: 20px;
+                }
             }
         }
         .tablas {
