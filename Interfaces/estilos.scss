@@ -53,26 +53,30 @@
             }
         }
         .tablas {
-            margin-right: 40%;
+            margin-right: 50%;
             margin-left: auto;
             width: 30%;
             .table {
                 th {
                     color: #1a4a77;
                     font-weight: bolder;
-                    border: none;
+                    //border: none;
                     padding: 15px;
+                    text-align: center;
+                    width: 20px;
                 }
                 td {
                     color: #1285b4;
                     padding: 15px;
-                    border: none;
+                    //border: none;
+                    
                 }
             }
         }
         .botones {
-            margin-left: 150%;
+            margin-left: 210%;
             display: flex;
+            width: 50%;
         }
         .btn-primary {
             background-color: #1285b4;
